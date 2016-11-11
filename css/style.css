@@ -1,0 +1,78 @@
+.search_box input
+{/*mno es recomndabele colocar un height, conforme incrmneta la 
+	cel font zize incrementa l caja*/
+	padding: 7px; 
+	font-size: 15px;
+}
+.search_box .fa-search
+{
+	margin: -25px;
+}/*si lo ponia con posicion absoluta puede
+ que no haya pasado eso*/
+
+ .estrenos img
+ {
+ 	width: 100%;
+ }
+
+ .trailer iframe
+ {
+ 	width: 100%;
+ 	height: 500px;
+ }
+ .cartelera img
+ {
+ 	width: 100%;
+ 	margin-top: 10px;
+ }
+ 
+ .hero .banner
+ {
+ 	background: #3A3838 url(../img/banner.jpg);
+ 	background-size: contain;
+ 	background-repeat: no-repeat;;
+
+ }
+ .movie-info
+ {
+ 	padding-top: 20px;
+ 	padding-bottom: 20px;
+ 	text-align: left;
+ 	color: #B4AEAE;
+
+ }
+ .movie-info span
+ {
+	border: 2px solid #31B404;
+	padding: 3px;
+	border-radius: 10%;
+}
+.movie-info button
+{
+	display: block;
+	margin-bottom: 10px;
+	margin-top: 10px; 
+	background-color: #E6AD1C;
+	border: 1px solid #E6AD1C; 
+	height: 30px;
+	width: 120px;
+	color: white;
+	font-size: 13px;
+	text-transform: uppercase;
+	margin-left:-1px;
+}
+.movie-info #b1
+{
+	background-color: #E9D925;
+ }
+.movie-info table, p ,h1
+{
+	text-align: left;
+}
+.movie-info h1
+{
+	border-bottom: 2px solid #B4AEAE;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+
