@@ -1,3 +1,4 @@
+
 .search_box input
 {/*mno es recomndabele colocar un height, conforme incrmneta la 
 	cel font zize incrementa l caja*/
@@ -9,7 +10,6 @@
 	margin: -25px;
 }/*si lo ponia con posicion absoluta puede
  que no haya pasado eso*/
-
  .estrenos img
  {
  	width: 100%;
@@ -28,51 +28,82 @@
  
  .hero .banner
  {
- 	background: #3A3838 url(../img/banner.jpg);
+ 	background:  #383838 url(../img/banner.jpg);
  	background-size: contain;
- 	background-repeat: no-repeat;;
+ 	background-repeat: no-repeat;
+ }
+ .banner img
+ {
+ 	position: relative;
+ 	left: 170px;
+ 	top: 150px;
+ 	width: 40px;
 
  }
- .movie-info
+ .hero .movie-info
  {
- 	padding-top: 20px;
+ 	padding-top: 10px;
  	padding-bottom: 20px;
  	text-align: left;
- 	color: #B4AEAE;
+ 	color: #d3d3d3;
+ 	font-size: 12px;
+ 	height: 320px;	
+}
+.movie-info table
+{
+	margin-top: 10px;
 
- }
- .movie-info span
+}
+ .movie-info .all
  {
-	border: 2px solid #31B404;
+	border: 1px solid #31B404;
+	color: #31B404;
 	padding: 3px;
+	font-size: 12px;
 	border-radius: 10%;
 }
-.movie-info button
+
+.movie-info p
 {
-	display: block;
-	margin-bottom: 10px;
-	margin-top: 10px; 
-	background-color: #E6AD1C;
-	border: 1px solid #E6AD1C; 
-	height: 30px;
-	width: 120px;
-	color: white;
-	font-size: 13px;
-	text-transform: uppercase;
-	margin-left:-1px;
-}
-.movie-info #b1
-{
-	background-color: #E9D925;
- }
-.movie-info table, p ,h1
-{
-	text-align: left;
+	margin: 3px 55px 0 3px;
 }
 .movie-info h1
 {
-	border-bottom: 2px solid #B4AEAE;
+	font-family: 'Poppins', sans-serif;
+	font-size: 35px;
+	border-bottom: 1px solid #B4B0B0;
 	padding-bottom: 10px;
-	margin-bottom: 20px;
+	margin: 0 80px 20px 0;
+}
+.movie-info input 
+{
+	margin: 10px   0  -15px 0; 
+	display: block;
+	height: 35px;
+	width: 140px;
+	color: white;
+	font-size: 12px;
+	margin-left:3px;
+	border-radius: 3px;
+}
+.movie-info #boton_play
+{
+	background-color: #E6AD1C;
+	border: 1px solid #E6AD1C; 
+	padding-left: 10px;
+}
+.movie-info #boton_ticket
+{
+	background-color: #BA7705;
+	border: 1px solid #BA7705; 
+	
+	
+} 
+.movie-info .fa-ticket, .fa-youtube-play
+{
+	color: white;
+	position: relative;
+	left: 15px;
+	bottom: 10px;
 }
 
