@@ -68,6 +68,7 @@ header .cabeza
 	border-bottom: 1px solid #B4B0B0;
 	padding-bottom: 10px;
 	margin-bottom: 10px;
+	font-size: 40px;
 }
  .movie-info .all
  {
@@ -125,7 +126,7 @@ header .cabeza
  {
  	background-color: black;
  }
- .trailer iframe
+ .row iframe
  {
  	width: 100%;
  	height: 300px;
